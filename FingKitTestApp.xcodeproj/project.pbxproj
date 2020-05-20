@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6459487C1E3258FF00AA7B67 /* FGKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6459487B1E3258FF00AA7B67 /* FGKUtils.m */; };
+		6489EFF91E2FBAFC00C78ED4 /* LicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6489EFF81E2FBAFC00C78ED4 /* LicenseViewController.m */; };
+		A92C32DD1DA031F800C9F84E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92C32DC1DA031F800C9F84E /* MessageUI.framework */; };
+		A935C54D1D67402200A9364F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A935C54C1D67402200A9364F /* main.m */; };
+		A935C5501D67402200A9364F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A935C54F1D67402200A9364F /* AppDelegate.m */; };
+		A935C5531D67402200A9364F /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A935C5521D67402200A9364F /* NetworkViewController.m */; };
+		A935C5561D67402200A9364F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A935C5541D67402200A9364F /* Main.storyboard */; };
+		A935C5581D67402200A9364F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A935C5571D67402200A9364F /* Assets.xcassets */; };
+		A935C55B1D67402200A9364F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A935C5591D67402200A9364F /* LaunchScreen.storyboard */; };
+		A97FCAE41D67467C00C608A0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAE31D67467C00C608A0 /* CFNetwork.framework */; };
+		A97FCAE61D67468300C608A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAE51D67468300C608A0 /* Foundation.framework */; };
+		A97FCAE81D67468700C608A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAE71D67468700C608A0 /* UIKit.framework */; };
+		A97FCAEA1D6746A500C608A0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAE91D6746A500C608A0 /* Security.framework */; };
+		A97FCAEC1D6746AD00C608A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAEB1D6746AD00C608A0 /* SystemConfiguration.framework */; };
+		A97FCAEE1D6746B500C608A0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAED1D6746B500C608A0 /* libsqlite3.tbd */; };
+		A97FCAF01D6746BB00C608A0 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAEF1D6746BB00C608A0 /* libresolv.9.tbd */; };
+		A97FCAF11D67476500C608A0 /* FingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAE11D67457600C608A0 /* FingKit.framework */; };
+		A97FCAF21D67476500C608A0 /* FingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCAE11D67457600C608A0 /* FingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9AC47761E952FA200B832D8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AC47751E952FA200B832D8 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A97FCAF31D67476500C608A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A97FCAF21D67476500C608A0 /* FingKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6426D2612322674500701D1A /* FingKitTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FingKitTestApp.entitlements; sourceTree = "<group>"; };
+		6459487A1E32588300AA7B67 /* FGKUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGKUtils.h; sourceTree = "<group>"; };
+		6459487B1E3258FF00AA7B67 /* FGKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGKUtils.m; sourceTree = "<group>"; };
+		6489EFF71E2FB8AF00C78ED4 /* LicenseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LicenseViewController.h; sourceTree = "<group>"; };
+		6489EFF81E2FBAFC00C78ED4 /* LicenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseViewController.m; sourceTree = "<group>"; };
+		A92C32DC1DA031F800C9F84E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A935C5481D67402200A9364F /* FingKitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingKitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A935C54C1D67402200A9364F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A935C54E1D67402200A9364F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A935C54F1D67402200A9364F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A935C5511D67402200A9364F /* NetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		A935C5521D67402200A9364F /* NetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+		A935C5551D67402200A9364F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A935C5571D67402200A9364F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A935C55A1D67402200A9364F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A935C55C1D67402200A9364F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97FCAE11D67457600C608A0 /* FingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FingKit.framework; path = FingKitTestApp/FingKit.framework; sourceTree = "<group>"; };
+		A97FCAE31D67467C00C608A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A97FCAE51D67468300C608A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A97FCAE71D67468700C608A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A97FCAE91D6746A500C608A0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A97FCAEB1D6746AD00C608A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A97FCAED1D6746B500C608A0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A97FCAEF1D6746BB00C608A0 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		A9AC47751E952FA200B832D8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A935C5451D67402200A9364F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AC47761E952FA200B832D8 /* CoreTelephony.framework in Frameworks */,
+				A92C32DD1DA031F800C9F84E /* MessageUI.framework in Frameworks */,
+				A97FCAF01D6746BB00C608A0 /* libresolv.9.tbd in Frameworks */,
+				A97FCAF11D67476500C608A0 /* FingKit.framework in Frameworks */,
+				A97FCAEE1D6746B500C608A0 /* libsqlite3.tbd in Frameworks */,
+				A97FCAEC1D6746AD00C608A0 /* SystemConfiguration.framework in Frameworks */,
+				A97FCAEA1D6746A500C608A0 /* Security.framework in Frameworks */,
+				A97FCAE81D67468700C608A0 /* UIKit.framework in Frameworks */,
+				A97FCAE61D67468300C608A0 /* Foundation.framework in Frameworks */,
+				A97FCAE41D67467C00C608A0 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A935C53F1D67402200A9364F = {
+			isa = PBXGroup;
+			children = (
+				A935C54A1D67402200A9364F /* FingKitTestApp */,
+				A97FCB041D6772D800C608A0 /* Frameworks */,
+				A935C5491D67402200A9364F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A935C5491D67402200A9364F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A935C5481D67402200A9364F /* FingKitTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A935C54A1D67402200A9364F /* FingKitTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				6426D2612322674500701D1A /* FingKitTestApp.entitlements */,
+				A935C54E1D67402200A9364F /* AppDelegate.h */,
+				A935C54F1D67402200A9364F /* AppDelegate.m */,
+				A935C5571D67402200A9364F /* Assets.xcassets */,
+				6459487A1E32588300AA7B67 /* FGKUtils.h */,
+				6459487B1E3258FF00AA7B67 /* FGKUtils.m */,
+				A935C55C1D67402200A9364F /* Info.plist */,
+				A935C5591D67402200A9364F /* LaunchScreen.storyboard */,
+				6489EFF71E2FB8AF00C78ED4 /* LicenseViewController.h */,
+				6489EFF81E2FBAFC00C78ED4 /* LicenseViewController.m */,
+				A935C54C1D67402200A9364F /* main.m */,
+				A935C5541D67402200A9364F /* Main.storyboard */,
+				A935C5511D67402200A9364F /* NetworkViewController.h */,
+				A935C5521D67402200A9364F /* NetworkViewController.m */,
+			);
+			path = FingKitTestApp;
+			sourceTree = "<group>";
+		};
+		A97FCB041D6772D800C608A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9AC47751E952FA200B832D8 /* CoreTelephony.framework */,
+				A92C32DC1DA031F800C9F84E /* MessageUI.framework */,
+				A97FCAEF1D6746BB00C608A0 /* libresolv.9.tbd */,
+				A97FCAED1D6746B500C608A0 /* libsqlite3.tbd */,
+				A97FCAEB1D6746AD00C608A0 /* SystemConfiguration.framework */,
+				A97FCAE91D6746A500C608A0 /* Security.framework */,
+				A97FCAE71D67468700C608A0 /* UIKit.framework */,
+				A97FCAE51D67468300C608A0 /* Foundation.framework */,
+				A97FCAE31D67467C00C608A0 /* CFNetwork.framework */,
+				A97FCAE11D67457600C608A0 /* FingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A935C5471D67402200A9364F /* FingKitTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A935C55F1D67402200A9364F /* Build configuration list for PBXNativeTarget "FingKitTestApp" */;
+			buildPhases = (
+				A935C5441D67402200A9364F /* Sources */,
+				A935C5451D67402200A9364F /* Frameworks */,
+				A935C5461D67402200A9364F /* Resources */,
+				A97FCAF31D67476500C608A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingKitTestApp;
+			productName = FingKitTestApp;
+			productReference = A935C5481D67402200A9364F /* FingKitTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A935C5401D67402200A9364F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FGK;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Domotz Ltd";
+				TargetAttributes = {
+					A935C5471D67402200A9364F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 747FK9M934;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A935C5431D67402200A9364F /* Build configuration list for PBXProject "FingKitTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A935C53F1D67402200A9364F;
+			productRefGroup = A935C5491D67402200A9364F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A935C5471D67402200A9364F /* FingKitTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A935C5461D67402200A9364F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935C55B1D67402200A9364F /* LaunchScreen.storyboard in Resources */,
+				A935C5581D67402200A9364F /* Assets.xcassets in Resources */,
+				A935C5561D67402200A9364F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A935C5441D67402200A9364F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6489EFF91E2FBAFC00C78ED4 /* LicenseViewController.m in Sources */,
+				A935C5531D67402200A9364F /* NetworkViewController.m in Sources */,
+				A935C5501D67402200A9364F /* AppDelegate.m in Sources */,
+				6459487C1E3258FF00AA7B67 /* FGKUtils.m in Sources */,
+				A935C54D1D67402200A9364F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A935C5541D67402200A9364F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A935C5551D67402200A9364F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A935C5591D67402200A9364F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A935C55A1D67402200A9364F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A935C55D1D67402200A9364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A935C55E1D67402200A9364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A935C5601D67402200A9364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FingKitTestApp/FingKitTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 150;
+				DEVELOPMENT_TEAM = 747FK9M934;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FingKitTestApp",
+				);
+				INFOPLIST_FILE = FingKitTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fing.kitdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		A935C5611D67402200A9364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FingKitTestApp/FingKitTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 150;
+				DEVELOPMENT_TEAM = 747FK9M934;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FingKitTestApp",
+				);
+				INFOPLIST_FILE = FingKitTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fing.kitdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A935C5431D67402200A9364F /* Build configuration list for PBXProject "FingKitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935C55D1D67402200A9364F /* Debug */,
+				A935C55E1D67402200A9364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A935C55F1D67402200A9364F /* Build configuration list for PBXNativeTarget "FingKitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935C5601D67402200A9364F /* Debug */,
+				A935C5611D67402200A9364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A935C5401D67402200A9364F /* Project object */;
+}
