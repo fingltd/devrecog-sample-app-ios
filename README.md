@@ -13,7 +13,7 @@ Table of contents
 Description
 ------------
 This folder contains the sample project of an iOS App containing the functionalities
-provided by the [Fing SDK](https://app.fing.com/internet/business/devrecog/documentation) for network scanning and device recognition.
+provided by the Fing SDK for network scanning and device recognition.
 
 The Fing SDK provides the core feature of the [Fing (Network Tools)](https://play.google.com/store/apps/details?id=com.overlook.android.fing) app for iOS. 
 
@@ -21,6 +21,8 @@ It is available as an Objective-C Framework library, suitable to be used with th
 standard development tools (Xcode) and to be published on the official Apple Store. As a
 framework, it may also be used by applications written in Swift language. It is compatible
 with Apple iOS 9.x and greater.
+
+The latest version of the Fing Kit for iOS can be downloaded from [here](https://get.fing.com/fing-business/devrecog/releases/sdk/ios/SDK_Mobile_iOS.zip).
 
 __Fing SDK requires a license key to work. [Create a trial license](https://app.fing.com/internet/business/devrecog/trial) 
 or [contact us](mailto:sales@fing.com) to get a valid key.__
