@@ -1,0 +1,6 @@
+framework module FingKit {
+  umbrella header "FingKit.h"
+
+  export *
+  module * { export * }
+}
