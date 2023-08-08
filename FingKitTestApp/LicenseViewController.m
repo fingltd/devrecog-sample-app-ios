@@ -27,6 +27,7 @@
  * @param   sender      The UIButton that triggered the action.
  */
 - (IBAction)verify:(id)sender {
+    [self.view endEditing:YES];
     [self.activityIndicator startAnimating];
     [self.textView setText:@""];
     [FingScanner.sharedInstance
@@ -40,6 +41,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             [self printToUI:content];
             [self.activityIndicator stopAnimating];
+            triggerLocalNetworkPrivacyAlertObjC();
         });
     }];
 }
